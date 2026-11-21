@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.netlify/
+.netlify-cache/
+.env
+.env.*
+!.env.example
+*.local
+# Route documents and discovery files are generated from React and route data at build time.
+index.html
+reports/**/index.html
+reports/index.html
+about/index.html
+contact/index.html
+privacy/index.html
+terms/index.html
+disclaimer/index.html
+404.html
+public/sitemap.xml
+public/robots.txt
