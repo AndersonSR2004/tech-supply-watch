@@ -146,7 +146,7 @@ export function PurchaseButton({
 }) {
   return (
     <ButtonLink href={report.purchaseUrl} external className={className}>
-      View on Payhip — {formatPrice(report)}
+      Buy on Gumroad — {formatPrice(report)}
     </ButtonLink>
   )
 }
