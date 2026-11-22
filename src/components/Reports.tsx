@@ -230,10 +230,10 @@ export function Product() {
             </div>
             <PurchaseButton />
             <p>
-              <Icon name="external" size={13} /> Payments are currently unavailable on Payhip.
+              <Icon name="external" size={13} /> Secure checkout and digital delivery via Gumroad.
             </p>
             <p className="tax-note">
-              Visit the product listing for current availability.
+              Review the final price and terms at checkout.
             </p>
           </div>
         </div>
@@ -358,15 +358,15 @@ export function Product() {
             </div>
             <div>
               <dt>Checkout & delivery</dt>
-              <dd>Payhip</dd>
+              <dd>Gumroad</dd>
             </div>
           </dl>
           <ButtonLink href={report.purchaseUrl} variant="secondary" external>
-            View on Payhip
+            View on Gumroad
           </ButtonLink>
           <p>
-            Purchase terms and any refund policy are displayed by Payhip at checkout. For order
-            support, use the contact options in your Payhip receipt.
+            Purchase terms and any refund policy are displayed by Gumroad at checkout. For order
+            support, use the contact options in your Gumroad receipt.
           </p>
         </aside>
       </div>
@@ -379,7 +379,7 @@ export function Product() {
           </div>
           <div>
             <PurchaseButton />
-            <p>8-page PDF · {formatPrice(report)} USD · Via Payhip</p>
+            <p>8-page PDF · {formatPrice(report)} USD · Via Gumroad</p>
           </div>
         </div>
       </section>
