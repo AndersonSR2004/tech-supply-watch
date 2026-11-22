@@ -147,7 +147,7 @@ export function Home() {
               </div>
               <PurchaseButton />
             </div>
-            <p className="checkout-note">Payments are currently unavailable on Payhip.</p>
+            <p className="checkout-note">Secure checkout and digital delivery via Gumroad.</p>
           </div>
         </article>
       </section>
