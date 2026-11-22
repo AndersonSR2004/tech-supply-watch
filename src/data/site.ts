@@ -41,21 +41,21 @@ export const routes = [
     path: '/contact/',
     title: 'Contact & Purchase Support | TECH SUPPLY WATCH',
     description:
-      'Contact information for Tech Supply Watch and guidance for purchases, PDF downloads, and support through Payhip.',
+      'Contact information for Tech Supply Watch and guidance for purchases, PDF downloads, and support through Gumroad.',
   },
   {
     id: 'privacy',
     path: '/privacy/',
     title: 'Privacy Policy | TECH SUPPLY WATCH',
     description:
-      'How Tech Supply Watch handles website information, hosting logs, aggregate traffic measurement, and external Payhip purchases.',
+      'How Tech Supply Watch handles website information, hosting logs, aggregate traffic measurement, and external Gumroad purchases.',
   },
   {
     id: 'terms',
     path: '/terms/',
     title: 'Terms of Use | TECH SUPPLY WATCH',
     description:
-      'Terms governing the use of Tech Supply Watch research, website content, and independent digital intelligence reports purchased on Payhip.',
+      'Terms governing the use of Tech Supply Watch research, website content, and independent digital intelligence reports purchased on Gumroad.',
   },
   {
     id: 'disclaimer',
