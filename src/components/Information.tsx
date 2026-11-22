@@ -120,15 +120,15 @@ export function Contact() {
           <Eyebrow>PURCHASES & DOWNLOADS</Eyebrow>
           <h2>Help with your report.</h2>
           <p>
-            Reports are sold and delivered through Payhip. If you have already purchased a report,
-            check your Payhip receipt for the download link and purchase support options.
+            Reports are sold and delivered through Gumroad. If you have already purchased a report,
+            check your Gumroad receipt for the download link and purchase support options.
           </p>
           <p>
             For payment, delivery, or refund questions, refer to the information shown on the
-            Payhip product page and your order receipt.
+            Gumroad product page and your order receipt.
           </p>
           <ButtonLink href={featuredReport.purchaseUrl} external variant="secondary">
-            Open report on Payhip
+            Open report on Gumroad
           </ButtonLink>
         </article>
         <article className="contact-card">
@@ -194,27 +194,27 @@ const legalContent = {
         'The website code does not set analytics or advertising cookies, and it does not store visitor profiles in browser storage. Hosting, security, or external services may have their own cookie practices. Check their policies and your browser settings for details.',
       ],
       [
-        'Payhip purchases',
-        'Report links take you to the product page on payhip.com. Payhip operates the checkout and digital delivery and may collect your email address, payment and billing details, purchase information, and technical data under its own policies. Tech Supply Watch does not receive or store your full payment card information through this website. The publisher may receive purchaser and order information made available to sellers by Payhip for delivery, transaction records, and support.',
+        'Gumroad purchases',
+        'Report links take you to the product page on gumroad.com. Gumroad operates the checkout and digital delivery and may collect your email address, payment and billing details, purchase information, and technical data under its own policies. Tech Supply Watch does not receive or store your full payment card information through this website. The publisher may receive purchaser and order information made available to sellers by Gumroad for delivery, transaction records, and support.',
       ],
       [
         'External services and links',
-        'External websites apply their own privacy policies. Opening a Payhip product page creates a connection to Payhip. Fonts and the report cover used on this website are hosted with the site, avoiding remote font and image provider requests during normal page viewing.',
+        'External websites apply their own privacy policies. Opening a Gumroad product page creates a connection to Gumroad. Fonts and the report cover used on this website are hosted with the site, avoiding remote font and image provider requests during normal page viewing.',
       ],
       [
         'Use, retention, and choices',
-        'Information provided through a purchase or support request may be used for order administration, responding to enquiries, legal obligations, and maintaining transaction records. Retention depends on the applicable purpose and the policies of the providers handling that information. Your rights may include access, correction, deletion, objection, or complaint to your local privacy authority, depending on your location and applicable law. For purchase information held by Payhip, use Payhip’s privacy and support channels.',
+        'Information provided through a purchase or support request may be used for order administration, responding to enquiries, legal obligations, and maintaining transaction records. Retention depends on the applicable purpose and the policies of the providers handling that information. Your rights may include access, correction, deletion, objection, or complaint to your local privacy authority, depending on your location and applicable law. For purchase information held by Gumroad, use Gumroad’s privacy and support channels.',
       ],
       [
         'Contact and changes',
-        'The contact page lists the current status of editorial contact details and directs purchasers to their Payhip receipt for order support. This policy may change as the website’s features change. The date above identifies the latest revision.',
+        'The contact page lists the current status of editorial contact details and directs purchasers to their Gumroad receipt for order support. This policy may change as the website’s features change. The date above identifies the latest revision.',
       ],
     ],
   },
   terms: {
     title: 'Terms of use.',
     introduction:
-      'These terms govern your use of the Tech Supply Watch website and its published content. Please read them alongside the research disclaimer and any terms presented by Payhip when making a purchase.',
+      'These terms govern your use of the Tech Supply Watch website and its published content. Please read them alongside the research disclaimer and any terms presented by Gumroad when making a purchase.',
     sections: [
       [
         'Using this website',
@@ -226,11 +226,11 @@ const legalContent = {
       ],
       [
         'Purchases and delivery',
-        'Reports are purchased through Payhip, an external checkout and digital delivery service. The product page states the report format and listed price in USD. Applicable taxes, local currency conversion, payment options, and the final amount are displayed by Payhip. Review the current product details and checkout terms before paying. This website does not process payments directly.',
+        'Reports are purchased through Gumroad, an external checkout and digital delivery service. The product page states the report format and listed price in USD. Applicable taxes, local currency conversion, payment options, and the final amount are displayed by Gumroad. Review the current product details and checkout terms before paying. This website does not process payments directly.',
       ],
       [
         'Refunds and purchase support',
-        'Any refund policy is the policy displayed on the Payhip product or checkout page at the time of purchase, subject to applicable consumer law. Use the contact and support options in your Payhip receipt for order enquiries. These terms do not create a separate refund promise or limit mandatory consumer rights.',
+        'Any refund policy is the policy displayed on the Gumroad product or checkout page at the time of purchase, subject to applicable consumer law. Use the contact and support options in your Gumroad receipt for order enquiries. These terms do not create a separate refund promise or limit mandatory consumer rights.',
       ],
       [
         'Informational content',
@@ -242,7 +242,7 @@ const legalContent = {
       ],
       [
         'External links and independence',
-        'External websites, including Payhip, operate under their own terms and policies. References to companies, individuals, products, and initiatives do not imply affiliation, endorsement, or sponsorship.',
+        'External websites, including Gumroad, operate under their own terms and policies. References to companies, individuals, products, and initiatives do not imply affiliation, endorsement, or sponsorship.',
       ],
       [
         'Liability, changes, and contact',
@@ -281,11 +281,11 @@ const legalContent = {
       ],
       [
         'Commercial relationship',
-        'Tech Supply Watch sells its own digital reports. Payhip handles the external purchase and delivery process. The presence of a purchase link does not mean the report is endorsed by Payhip or any organization discussed in the research.',
+        'Tech Supply Watch sells its own digital reports. Gumroad handles the external purchase and delivery process. The presence of a purchase link does not mean the report is endorsed by Gumroad or any organization discussed in the research.',
       ],
       [
         'Corrections and enquiries',
-        'See the contact page for current editorial contact availability. For purchase and download support, refer to your Payhip receipt.',
+        'See the contact page for current editorial contact availability. For purchase and download support, refer to your Gumroad receipt.',
       ],
     ],
   },
@@ -326,8 +326,8 @@ export function Legal({ type }: { type: keyof typeof legalContent }) {
             Contact & support <Icon name="arrow" size={15} />
           </a>
           {type === 'privacy' && (
-            <a href="https://payhip.com/privacy" target="_blank" rel="noopener noreferrer">
-              Payhip privacy policy <Icon name="external" size={15} />
+            <a href="https://gumroad.com/privacy" target="_blank" rel="noopener noreferrer">
+              Gumroad privacy policy <Icon name="external" size={15} />
               <span className="sr-only"> (opens in a new tab)</span>
             </a>
           )}
