@@ -47,7 +47,7 @@ export const reports: Report[] = [
     cover: '/img/terafab-watch-cover.png',
     coverWidth: 600,
     coverHeight: 600,
-    purchaseUrl: 'https://payhip.com/b/wVczO',
+    purchaseUrl: 'https://techsupplywatch.gumroad.com/l/rlwyhl',
     published: true,
   },
 ]
